@@ -1,5 +1,18 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 500,
+  "width": 500,
+  "title": "Crude Suicide rates vs GDP per Country (2000)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/harj2002/Week10HW/main/data/Dataset_withcontinents.csv"
+  },
+  "selection": {
+    "continent_highlight": {
+    "type": "multi",
+    "fields": ["Continent"],
+    "bind": "legend"
+    }
+  },
   "encoding": {
     "x": {
       "field": "GDP_PerCapita_2000 US$",
@@ -35,19 +48,6 @@
     ]}
     },
     {
-      "height": 500,
-    "width": 500,
-    "title": "Crude Suicide rates vs GDP per Country (2000)",
-    "data": {
-      "url": "https://raw.githubusercontent.com/harj2002/Week10HW/main/data/Dataset_withcontinents.csv"
-    },
-    "selection": {
-      "continent_highlight": {
-      "type": "multi",
-      "fields": ["Continent"],
-      "bind": "legend"
-    }
-    },
       "mark": {
         "type": "text",
         "align": "right",
