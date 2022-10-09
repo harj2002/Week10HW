@@ -12,13 +12,21 @@
   
 </head>
 <body>
-  
+<h1>Week 10 Homework</h1>
+<p>Harjodh Singh - 31576273</p>
 <div id="scatter_plot"></div>
 
-<script type="text/javascript">
+<div id="choropleth_map"></div>
 
-  var spec2 = "js/scatter_plot_interactive.vg.json";
-  vegaEmbed('#scatter_plot', spec2).then(function(result) {
+<script type="text/javascript">
+  var spec1 = "js/scatter_plot.vg.json";
+  var spec2 = "js/choropleth_map.vg.json";
+
+  vegaEmbed('#scatter_plot', spec1, { "actions": false }).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+
+  vegaEmbed('#choropleth_map', spec2, { "actions": false }).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>

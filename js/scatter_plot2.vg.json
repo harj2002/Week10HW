@@ -1,0 +1,73 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "encoding": {
+    "x": {
+      "field": "GDP_PerCapita_2000 US$",
+      "type": "quantitative",
+      "title": "GDP Per Capita",
+      "axis": {"tickCount": 10},
+      "scale": {"type": "log", "domain": [100, 60000]}
+    },
+    "y": {
+      "field": "SuicideRate_2000",
+      "type": "quantitative",
+      "axis": {"tickCount": 11},
+      "scale": {"type": "log", "domain": [1.5, 60]}
+    }
+  },
+  "layer": [
+    {
+    "mark": "circle",
+      "encoding": {
+      "color": {
+      "field": "Continent",
+      "type": "nominal"
+    },
+    "opacity": {
+      "condition": {"selection": "continent_highlight", "value": 0.6},
+      "value": 0.2
+    },
+    "tooltip": [
+      {"field": "CountryName", "type": "nominal"},
+      {"field": "Country Code", "type": "nominal"},
+      {"field": "GDP_PerCapita_2000 US$", "type": "quantitative", "format": ","},
+      {"field": "SuicideRate_2000", "type": "quantitative", "format": ","}
+    ]}
+    },
+    {
+      "height": 500,
+    "width": 500,
+    "title": "Crude Suicide rates vs GDP per Country (2000)",
+    "data": {
+      "url": "https://raw.githubusercontent.com/harj2002/Week10HW/main/data/Dataset_withcontinents.csv"
+    },
+    "selection": {
+      "continent_highlight": {
+      "type": "multi",
+      "fields": ["Continent"],
+      "bind": "legend"
+    }
+    },
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "CountryName", "type": "nominal"},
+        "color": {"value": "black"},
+        "opacity": {
+          "condition": {
+            "test": " datum['Country'] == 'Australia' || datum['Country'] == 'United States of America'",
+            "value": 1
+          },
+          "value": 0
+        }
+      }
+    }
+  ]
+
+}
