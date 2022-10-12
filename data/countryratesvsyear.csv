@@ -1,0 +1,101 @@
+﻿country,year,"Suicide mortality rate (per 100,000 population)",GDP (current US$),"GDP per capita, PPP (current international $)",incomeLevel
+United Kingdom,2000,8.6,1.66213E+12,26472.19371,High income
+United Kingdom,2001,8.3,1.64391E+12,27807.16932,High income
+United Kingdom,2002,8.3,1.78408E+12,29062.12387,High income
+United Kingdom,2003,7.9,2.05709E+12,30355.28338,High income
+United Kingdom,2004,8.2,2.42181E+12,32058.41549,High income
+United Kingdom,2005,7.9,2.54483E+12,32747.35401,High income
+United Kingdom,2006,7.8,2.71706E+12,34845.59177,High income
+United Kingdom,2007,7.6,3.10618E+12,35695.29849,High income
+United Kingdom,2008,8.1,2.93888E+12,36863.58476,High income
+United Kingdom,2009,8,2.4258E+12,35212.42048,High income
+United Kingdom,2010,7.8,2.49111E+12,36576.58654,High income
+United Kingdom,2011,8.3,2.67489E+12,37379.29097,High income
+United Kingdom,2012,8.2,2.71916E+12,38514.02617,High income
+United Kingdom,2013,8.8,2.80329E+12,40218.74726,High income
+United Kingdom,2014,8.6,3.08717E+12,41580.60249,High income
+United Kingdom,2015,8.8,2.95657E+12,42912.87509,High income
+United Kingdom,2016,8.5,2.72285E+12,44635.29956,High income
+United Kingdom,2017,8.2,2.69902E+12,46372.3866,High income
+United Kingdom,2018,8.1,2.90079E+12,47573.48802,High income
+United Kingdom,2019,7.9,2.87867E+12,49041.46355,High income
+United States,2000,11,1.02523E+13,36334.90878,High income
+United States,2001,11.4,1.05818E+13,37133.24281,High income
+United States,2002,11.8,1.09364E+13,38023.16111,High income
+United States,2003,11.7,1.14582E+13,39496.48588,High income
+United States,2004,11.9,1.22137E+13,41712.80107,High income
+United States,2005,11.9,1.30366E+13,44114.74778,High income
+United States,2006,12.1,1.38146E+13,46298.73144,High income
+United States,2007,12.4,1.44519E+13,47975.9677,High income
+United States,2008,12.7,1.47128E+13,48382.55845,High income
+United States,2009,12.8,1.44489E+13,47099.98047,High income
+United States,2010,13.1,1.49921E+13,48466.6576,High income
+United States,2011,13.4,1.55426E+13,49882.55813,High income
+United States,2012,13.5,1.6197E+13,51602.93105,High income
+United States,2013,13.5,1.67848E+13,53106.53677,High income
+United States,2014,14,1.75272E+13,55049.98833,High income
+United States,2015,14.4,1.82383E+13,56863.3715,High income
+United States,2016,15.1,1.87451E+13,58021.4005,High income
+United States,2017,15.9,1.9543E+13,60109.65573,High income
+United States,2018,15.7,2.06119E+13,63064.41841,High income
+United States,2019,16.1,2.14332E+13,65279.52903,High income
+Australia,2000,12.7,4.15576E+11,26343.0767,High income
+Australia,2001,12.2,3.79084E+11,27439.82779,High income
+Australia,2002,11.3,3.95343E+11,28768.72863,High income
+Australia,2003,10.5,4.67391E+11,29807.40956,High income
+Australia,2004,10.3,6.14166E+11,31407.46145,High income
+Australia,2005,11.2,6.95075E+11,32653.40162,High income
+Australia,2006,10.6,7.47556E+11,34369.61939,High income
+Australia,2007,10.9,8.53955E+11,36599.85073,High income
+Australia,2008,11.6,1.05513E+12,37499.52513,High income
+Australia,2009,11.2,9.28043E+11,40281.79967,High income
+Australia,2010,11.7,1.14759E+12,39336.66348,High income
+Australia,2011,11.2,1.39791E+12,42003.15806,High income
+Australia,2012,11.7,1.54651E+12,42836.67186,High income
+Australia,2013,11.5,1.57634E+12,45906.44004,High income
+Australia,2014,12.7,1.4675E+12,46880.89518,High income
+Australia,2015,13.2,1.35053E+12,46248.61646,High income
+Australia,2016,12.2,1.20669E+12,47255.30701,High income
+Australia,2017,13.1,1.32688E+12,48398.5497,High income
+Australia,2018,12.4,1.42853E+12,50169.18729,High income
+Australia,2019,12.5,1.39195E+12,51748.39772,High income
+China,2000,14.3,1.21135E+12,2920.560791,Upper middle income
+China,2001,12.9,1.3394E+12,3210.009396,Upper middle income
+China,2002,12.2,1.47055E+12,3534.84913,Upper middle income
+China,2003,12.8,1.66029E+12,3937.312875,Upper middle income
+China,2004,13.3,1.95535E+12,4425.874191,Upper middle income
+China,2005,12.9,2.28597E+12,5053.945798,Upper middle income
+China,2006,12.1,2.75213E+12,5836.573437,Upper middle income
+China,2007,11.5,3.55034E+12,6810.6039,Upper middle income
+China,2008,11.1,4.59431E+12,7574.224455,Upper middle income
+China,2009,10.7,5.1017E+12,8307.849519,Upper middle income
+China,2010,10.2,6.08716E+12,9253.765188,Upper middle income
+China,2011,9.6,7.5515E+12,10292.94048,Upper middle income
+China,2012,9,8.53223E+12,11168.6973,Upper middle income
+China,2013,8.6,9.57041E+12,11872.49738,Upper middle income
+China,2014,8.4,1.04757E+13,12480.33853,Upper middle income
+China,2015,8.1,1.10616E+13,12897.50229,Upper middle income
+China,2016,8.2,1.12333E+13,13483.37727,Upper middle income
+China,2017,8.1,1.23104E+13,14243.53261,Upper middle income
+China,2018,8.1,1.38948E+13,15497.35999,Upper middle income
+China,2019,8.1,1.42799E+13,16653.33884,Upper middle income
+Zimbabwe,2000,13.3,6689957600,2272.599366,Lower middle income
+Zimbabwe,2001,12.8,6777384700,2347.499465,Lower middle income
+Zimbabwe,2002,13.4,6342116400,2167.019215,Lower middle income
+Zimbabwe,2003,13.2,5727591800,1827.866844,Lower middle income
+Zimbabwe,2004,14.2,5805598400,1762.520649,Lower middle income
+Zimbabwe,2005,14,5755215200,1705.569979,Lower middle income
+Zimbabwe,2006,14.4,5443896500,1685.362389,Lower middle income
+Zimbabwe,2007,17.2,5291950100,1653.747515,Lower middle income
+Zimbabwe,2008,20.1,4415702800,1374.169559,Lower middle income
+Zimbabwe,2009,22.2,9665793300,1532.821586,Lower middle income
+Zimbabwe,2010,21.5,12041655200,1830.827333,Lower middle income
+Zimbabwe,2011,20.7,14101920300,2101.824051,Lower middle income
+Zimbabwe,2012,19.7,17114849900,2375.927006,Lower middle income
+Zimbabwe,2013,18.6,19091020000,2560.773267,Lower middle income
+Zimbabwe,2014,18.2,19495519600,2612.455954,Lower middle income
+Zimbabwe,2015,18,19963120600,2679.507615,Lower middle income
+Zimbabwe,2016,16.8,20548678100,2806.469032,Lower middle income
+Zimbabwe,2017,15,17584890937,3795.642431,Lower middle income
+Zimbabwe,2018,14,18115543791,4017.221716,Lower middle income
+Zimbabwe,2019,14.1,19284289739,3783.547898,Lower middle income
